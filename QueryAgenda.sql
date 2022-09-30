@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].Contatos
+(
+	[Id] INT NOT NULL IDENTITY PRIMARY KEY, 
+    [Nome] VARCHAR(50) NOT NULL, 
+    [Telefone] VARCHAR(11) NOT NULL 
+)
